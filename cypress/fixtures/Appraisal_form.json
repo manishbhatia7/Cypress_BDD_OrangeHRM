@@ -1,0 +1,9 @@
+{
+    "kpi":"Lot of defects got leaked to production because of which lot of patches need to be planned.",
+    "kpi_rating":"3.1",
+    "general":"Defects need to be contained within the team itself.",
+    "final_comment":"There was lot of defects slipped to production.Also some obvious issues were not caught. But otherwise its fine.",
+    "final_rating":"3",
+    "completed_date":"2020-08-14"
+
+}

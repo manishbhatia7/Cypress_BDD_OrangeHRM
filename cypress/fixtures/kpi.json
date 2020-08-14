@@ -1,0 +1,6 @@
+{
+    "Title":"IT Executive",
+    "KPI":"Defect Leakage Rate should be less than 2 percent",
+    "Min":"1",
+    "Max":"5"
+}

@@ -1,0 +1,21 @@
+{
+    "baseUrl":"https://opensource-demo.orangehrmlive.com/index.php/auth/login",
+    "supportFile": "cypress/support/index.js",
+    "screenshotOnRunFailure":true,
+    "chromeWebSecurity": false,
+    "pageLoadTimeout":1600000,
+    "defaultCommandTimeout":500000,
+    "responseTimeout":1300000,
+    "requestTimeout":10101010,
+    "execTimeout":20000,
+    "taskTimeout":10000,
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+      ],
+      "testFiles": "**/*.{feature,features}",
+      "video":true
+      
+      
+
+}
