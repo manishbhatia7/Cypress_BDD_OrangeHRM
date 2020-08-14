@@ -1,0 +1,31 @@
+{
+  "name": "cypress_project_bdd",
+  "version": "1.0.0",
+  "description": "This Project tests an open HR website through its BDD Principles",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
+  },
+  "keywords": [
+    "BDD",
+    "Cucumber",
+    "Automation"
+  ],
+  "author": "Manish Bhatia",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.0",
+    "cypress-file-upload": "^4.0.7"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.4",
+    "cypress-localstorage-commands": "^1.2.1",
+    "cypress-xpath": "^1.6.0",
+    "fixtures": "0.0.2",
+    "mocha": "8.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
